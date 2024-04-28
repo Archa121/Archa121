@@ -1,0 +1,71 @@
+div {
+  width: 60%;
+  height: 500px;
+  border: 4 solid black;
+  background-position: center; 
+  background: red;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  0%   {top: 100px; background: #330099;}
+  50% {top: 120px; background: #330099;}
+  100%   {top: 100px; background:#330099;}
+}
+.TEXLOGIN {
+  color: white;
+  position: relative;
+  top: 30px;
+  left: 5%;
+}
+.LOGIN {
+  color: white;
+  position: relative;
+  left: 5%;
+  top: 20px;
+}
+
+
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+          color: white;
+          text-align: center;
+          position: relative;
+          top: 30px;
+        }
+        input[type="text"] {
+            width: calc(90% - 10px);
+            padding: 8px;
+          align-items: center;
+            margin-bottom: 15px;
+          font-weight: bolder;
+          color: white;
+            border: 2px solid #000033;
+          background-color: #000066;
+            border-radius: 5px;
+          position: relative;
+          top: 35px;
+          display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        input[type="submit"] {
+            padding: 10px 35%;
+            background-color: #3300FF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          position: relative;
+          top: 175px;
+          border-radius: 100px;
+          margin: 0 auto; 
+          
+        }
+        
